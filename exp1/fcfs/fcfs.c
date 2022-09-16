@@ -4,7 +4,7 @@ TITLE of Experiment:fcfs cp scheduling algorithm
 Date of creation:16/09/2002
 */
 #include<stdio.h>
-#include<conio.h>
+/*#include<conio.h>*/
 main()
 {
 int bt[20], wt[20], tat[20], i, n;
