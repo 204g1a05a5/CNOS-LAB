@@ -9,5 +9,4 @@ name:b.supraja
 int main()
 {
   printf("Hello World");
-  return o;
 }
