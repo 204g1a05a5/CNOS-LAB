@@ -1,7 +1,7 @@
 /*NAME of the Student:B.supraja
 Roll no:24G1A05A5
 TITLE of Experiment:fcfs cp scheduling algorithm
-Date of creation:16/09/2002
+Date of creation:23/09/2002
 */
 #include<stdio.h>
 void main()
