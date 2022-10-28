@@ -1,0 +1,68 @@
+Script started on 2022-10-28 15:58:15+05:30 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="116" LINES="24"]
+[?2004h]0;srit@srit-HP-Pro-3090-MT: ~/204G1A05A5/CNOS-LAB[01;32msrit@srit-HP-Pro-3090-MT[00m:[01;34m~/204G1A05A5/CNOS-LAB[00m$ mkdir exp3
+[?2004l[?2004h]0;srit@srit-HP-Pro-3090-MT: ~/204G1A05A5/CNOS-LAB[01;32msrit@srit-HP-Pro-3090-MT[00m:[01;34m~/204G1A05A5/CNOS-LAB[00m$ cd exp3
+[?2004l[?2004h]0;srit@srit-HP-Pro-3090-MT: ~/204G1A05A5/CNOS-LAB/exp3[01;32msrit@srit-HP-Pro-3090-MT[00m:[01;34m~/204G1A05A5/CNOS-LAB/exp3[00m$ echo "FIFO page rea[Kplacement algorithm is going to imp[Kplement" `d ate`
+[?2004lFIFO page replacement algorithm is going to implement Friday 28 October 2022 03:59:11 PM IST
+[?2004h]0;srit@srit-HP-Pro-3090-MT: ~/204G1A05A5/CNOS-LAB/exp3[01;32msrit@srit-HP-Pro-3090-MT[00m:[01;34m~/204G1A05A5/CNOS-LAB/exp3[00m$ nano FIFO.c
+[?2004l[?2004h[?1049h[22;0;0t[1;24r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[22;53H(B[0;7m[ New File ](B[m[H(B[0;7m  GNU nano 6.2                                           FIFO.c                                                     [1;115H(B[m[23d(B[0;7m^G(B[m Help[23;17H(B[0;7m^O(B[m Write Out    (B[0;7m^W(B[m Where Is     (B[0;7m^K(B[m Cut[23;65H(B[0;7m^T(B[m Execute[81G(B[0;7m^C(B[m Location     (B[0;7mM-U(B[m Undo[24d(B[0;7m^X(B[m Exit[24;17H(B[0;7m^R(B[m Read File    (B[0;7m^\(B[m Replace[49G(B[0;7m^U(B[m Paste[24;65H(B[0;7m^J(B[m Justify[81G(B[0;7m^/(B[m Go To Line   (B[0;7mM-E(B[m Redo[2d[?12l[?25h[?25l[1;65H(B[0;7m*[22d(B[m[K[1;115H[2ddisplay();[3d}[4dprintf((B[0;1m[33m"Number of page faults : %d "[39m(B[m,pf+frsize);[5dgetch();[6d}[7d[32mvoid[39m(B[m display()[8d{[9d[32mint[39m(B[m i; printf((B[0;1m[33m"\n"[39m(B[m);[11d(B[0;1m[33mfor[39m(B[m(i=0;i<3;i++)[12dprintf((B[0;1m[33m"%d\t"[39m(B[m,fr[i]);[?12l[?25h[?25l[13d[?12l[?25h[?25l[?12l[?25h}[?25l[22d(B[0;7mSave modified buffer?                                                                                               [23;1H Y(B[m Yes[K[24d(B[0;7m N(B[m No  [24;18H(B[0;7mC(B[m Cancel[K[22;23H[?12l[?25h[?25l[23d(B[0;7m^G(B[m Help[23;30H(B[0;7mM-D(B[m DOS Format[23;59H(B[0;7mM-A(B[m Append[23;88H(B[0;7mM-B(B[m Backup File[24d(B[0;7m^C(B[m Cancel[17G             (B[0;7mM-M(B[m Mac Format[24;59H(B[0;7mM-P(B[m Prepend[24;88H(B[0;7m^T(B[m Browse[22d(B[0;7mFile Name to Write: FIFO.c(B[m[?12l[?25h[?25l[22;51H[1K (B[0;7m[ Writing... ](B[m[K[1;65H(B[0;7m [115G(B[m[22;50H(B[0;7m[ Wrote 52 lines ](B[m[J[24d[?12l[?25h[24;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h]0;srit@srit-HP-Pro-3090-MT: ~/204G1A05A5/CNOS-LAB/exp3[01;32msrit@srit-HP-Pro-3090-MT[00m:[01;34m~/204G1A05A5/CNOS-LAB/exp3[00m$ echo "compling program [KOF[K[Kof [1@ [C[C[C F I F O . c " [C ` d a t e ` 
+[?2004lcompling program of FIFO.c Friday 28 October 2022 04:01:13 PM IST
+[?2004h]0;srit@srit-HP-Pro-3090-MT: ~/204G1A05A5/CNOS-LAB/exp3[01;32msrit@srit-HP-Pro-3090-MT[00m:[01;34m~/204G1A05A5/CNOS-LAB/exp3[00m$ gcc FIFO.C
+[?2004l[01m[Kcc1plus:[m[K [01;31m[Kfatal error: [m[KFIFO.C: No such file or directory
+compilation terminated.
+[?2004h]0;srit@srit-HP-Pro-3090-MT: ~/204G1A05A5/CNOS-LAB/exp3[01;32msrit@srit-HP-Pro-3090-MT[00m:[01;34m~/204G1A05A5/CNOS-LAB/exp3[00m$ GCC[K[K[Kgcc FO[KIFO.c
+[?2004l[01m[KFIFO.c:2:19:[m[K [01;35m[Kwarning: [m[Kextra tokens at end of #include directive
+    2 | #include<conio.h> [01;35m[Kint[m[K fr[3];
+      |                   [01;35m[K^~~[m[K
+[01m[KFIFO.c:2:9:[m[K [01;31m[Kfatal error: [m[Kconio.h: No such file or directory
+    2 | #include[01;31m[K<conio.h>[m[K int fr[3];
+      |         [01;31m[K^~~~~~~~~[m[K
+compilation terminated.
+[?2004h]0;srit@srit-HP-Pro-3090-MT: ~/204G1A05A5/CNOS-LAB/exp3[01;32msrit@srit-HP-Pro-3090-MT[00m:[01;34m~/204G1A05A5/CNOS-LAB/exp3[00m$ nano FIFO.c
+[?2004l[?2004h[?1049h[22;0;0t[1;24r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[22;52H(B[0;7m[ Reading... ](B[m[22;50H(B[0;7m[ Read 52 lines ](B[m[H(B[0;7m  GNU nano 6.2                                           FIFO.c                                                     [1;115H(B[m[23d(B[0;7m^G(B[m Help[23;17H(B[0;7m^O(B[m Write Out    (B[0;7m^W(B[m Where Is     (B[0;7m^K(B[m Cut[23;65H(B[0;7m^T(B[m Execute[81G(B[0;7m^C(B[m Location     (B[0;7mM-U(B[m Undo[24d(B[0;7m^X(B[m Exit[24;17H(B[0;7m^R(B[m Read File    (B[0;7m^\(B[m Replace[49G(B[0;7m^U(B[m Paste[24;65H(B[0;7m^J(B[m Justify[81G(B[0;7m^/(B[m Go To Line   (B[0;7mM-E(B[m Redo[2d(B[0;1m[36m#include[33m<stdio.h>[3d[36m#include[33m<conio.h>[39m(B[m [32mint[39m(B[m fr[3];[4d[32mvoid[39m(B[m main()[5d{[6d[32mvoid[39m(B[m display();[7d[32mint[39m(B[m i,j,page[12]={2,3,2,1,5,2,4,5,3,2,5,2};[8d[32mint[9d[39m(B[mflag1=0,flag2=0,pf=0,frsize=3,top=0;[10dclrscr();[11d(B[0;1m[33mfor[39m(B[m(i=0;i<3;i++)[12d{[13dfr[i]=-1;[14d}[15d(B[0;1m[33mfor[39m(B[m(j=0;j<12;j++)[16d{[17dflag1=0; flag2=0; (B[0;1m[33mfor[39m(B[m(i=0;i<12;i++)[18d{[19d(B[0;1m[33mif[39m(B[m(fr[i]==page[j])[20d{[21dflag1=1; flag2=1; [35mbreak[39m(B[m;[2d[?12l[?25h[?25l[?12l[?25h[3d[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[1;65H(B[0;7m*[115G(B[m[?12l[?25h[3;9H<conio.h[1P[?25l[22d[K[?12l[?25h[3;16H[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h#includ[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[3;22r[22;1H
+[1;24r[2;19H[32mint[39m(B[m fr[3];[21d}[2;18H[?12l[?25h[?25l7[3;21r8[3dM[1;24r[2;19H[K[3d [32mint[39m(B[m fr[3];[?12l[?25h[?25l[?12l[?25h[4d[?25l[?12l[?25h[5d[?25l[?12l[?25h[6d[?25l[?12l[?25h[7d[?25l[?12l[?25h[8d[?25l[?12l[?25h[9d[?25l[?12l[?25h[10d[?25l[?12l[?25hc[?25l[?12l[?25hl[?25l[?12l[?25h[A[?25l[?12l[?25h[?25l[?12l[?25h[?25l[8;22r[22;1H
+[1;24r[8;1Hintflag1=0,flag2=0,pf=0,frsize=3,top=0;[21d}[8dnt[?12l[?25h[?25l[?12l[?25h[32mint[39m(B[m flag1=0,flag2=0,pf=0,frsize=3,top=0;[5G[?25l[?12l[?25h[9d[?25l[?12l[?25hc[?25l[?12l[?25hr[?25l[?12l[?25h([?25l[?12l[?25h)[?25l[?12l[?25h;[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h[K[?25l[9;22r[22;1H
+[1;24r[21;1H}[8;41H[?12l[?25h[?25l[?12l[?25h[9;17H[?25l[?12l[?25h[10d{[?25l[?12l[?25h[11;10H[?25l[?12l[?25h[12d}[?25l[?12l[?25h[13;18H[?25l[?12l[?25h[14d{[?25l[?12l[?25h[15;36H[?25l[?12l[?25h[16d{[?25l[?12l[?25h[17;19H[?25l[?12l[?25h[18d{[?25l[?12l[?25h[19;25H[?25l[?12l[?25h[20d}[?25l[?12l[?25h[21d[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[33mif[39m(B[m(flag1==0)[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H{[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[33mfor[39m(B[m(i=0;i<frsize;i++)[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H{[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[33mif[39m(B[m(fr[i]==-1)[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H{[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1Hfr[i]=page[j]; flag2=1; [35mbreak[39m(B[m;[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H}[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H}[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H}[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[33mif[39m(B[m(flag2==0)[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H{[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1Hfr[top]=page[j];[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1Htop++;[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1Hpf++;[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[33mif[39m(B[m(top>=frsize)[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1Htop=0;[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H}[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1Hdisplay();[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H}[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1Hprintf((B[0;1m[33m"Number of page faults : %d "[39m(B[m,pf+frsize);[21;41H[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1Hgetch();[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H}[?25l[?12l[?25h[20;9H[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h[K[?25l}[21d[32mvoid[39m(B[m display()[19;49H[?12l[?25h[?25l[22d(B[0;7mSave modified buffer?                                                                                               [23;1H Y(B[m Yes[K[24d(B[0;7m N(B[m No  [24;18H(B[0;7mC(B[m Cancel[K[22;23H[?12l[?25h[?25l[23d(B[0;7m^G(B[m Help[23;30H(B[0;7mM-D(B[m DOS Format[23;59H(B[0;7mM-A(B[m Append[23;88H(B[0;7mM-B(B[m Backup File[24d(B[0;7m^C(B[m Cancel[17G             (B[0;7mM-M(B[m Mac Format[24;59H(B[0;7mM-P(B[m Prepend[24;88H(B[0;7m^T(B[m Browse[22d(B[0;7mFile Name to Write: FIFO.c(B[m[?12l[?25h[?25l[22;51H[1K (B[0;7m[ Writing... ](B[m[K[1;65H(B[0;7m [115G(B[m[22;50H(B[0;7m[ Wrote 49 lines ](B[m[J[24d[?12l[?25h[24;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h]0;srit@srit-HP-Pro-3090-MT: ~/204G1A05A5/CNOS-LAB/exp3[01;32msrit@srit-HP-Pro-3090-MT[00m:[01;34m~/204G1A05A5/CNOS-LAB/exp3[00m$ gcc FIFO.c
+[?2004l[?2004h]0;srit@srit-HP-Pro-3090-MT: ~/204G1A05A5/CNOS-LAB/exp3[01;32msrit@srit-HP-Pro-3090-MT[00m:[01;34m~/204G1A05A5/CNOS-LAB/exp3[00m$ echo "FIFO.c [p[K[Kprogram is going to excute" `data[Ke`
+[?2004lFIFO.c program is going to excute Friday 28 October 2022 04:03:22 PM IST
+[?2004h]0;srit@srit-HP-Pro-3090-MT: ~/204G1A05A5/CNOS-LAB/exp3[01;32msrit@srit-HP-Pro-3090-MT[00m:[01;34m~/204G1A05A5/CNOS-LAB/exp3[00m$ ./a/ou[1Pou.ou[C[Ct
+[?2004l
+2	-1	-1	
+2	3	-1	
+2	3	-1	
+2	3	1	
+5	3	1	
+5	2	1	
+5	2	4	
+5	2	4	
+3	2	4	
+3	2	4	
+3	5	4	
+3	5	2	Number of page faults : 9 [?2004h]0;srit@srit-HP-Pro-3090-MT: ~/204G1A05A5/CNOS-LAB/exp3[01;32msrit@srit-HP-Pro-3090-MT[00m:[01;34m~/204G1A05A5/CNOS-LAB/exp3[00m$ echo "FIFO.c is succesfully[1@ [1@p[1@r[1@o[1@g[1@r[1@a[1@m[1@ [C[C[C[C[C[C[C[C[C[C[C[C[C[C excuted" `date`
+[?2004lFIFO.c  program is succesfully excuted Friday 28 October 2022 04:04:26 PM IST
+[?2004h]0;srit@srit-HP-Pro-3090-MT: ~/204G1A05A5/CNOS-LAB/exp3[01;32msrit@srit-HP-Pro-3090-MT[00m:[01;34m~/204G1A05A5/CNOS-LAB/exp3[00m$ exit
+[?2004lexit
+
+Script done on 2022-10-28 16:04:33+05:30 [COMMAND_EXIT_CODE="0"]
